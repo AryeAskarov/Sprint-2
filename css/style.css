@@ -1,0 +1,42 @@
+*{box-sizing: border-box;}
+
+
+body{
+    background-color: #22252c;
+}
+.header{
+    background-image: linear-gradient(to right, #139eac , #2cb77b);
+    border-radius: 50px;
+    text-decoration: none;
+    height: 80px;
+    text-align: center;
+}
+.logo{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block
+}
+.nav-ops{
+    text-decoration: none;
+    list-style-type: none;
+}
+    
+.flex {
+    display: flex;
+}
+.nav-ops li{
+    margin-inline-end: 50px;
+}
+canvas{
+        border: 1px solid black;
+        margin: 10px;
+        border-radius: 10px;
+}
+.editor{
+    text-align: center;
+    margin: 10px;
+}
+button{
+    margin: 10px;
+}

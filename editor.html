@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="onInit()">
+
+    <div class="main-container">
+        <header class="header flex">
+            <div class="logo flex">LOGO</div>
+            <ul class="nav-ops flex">
+                <li>Mems</li>
+                <li>Gallery</li>
+                <li>About</li>
+            </ul>
+        </header>
+        <div class="main flex">
+            <div class="canvas">
+                <canvas id="my-canvas" height="350" width="350" onclick="getMeme(event)"></canvas>
+            </div>
+            <div class="editor">
+                <input type="text" name="text-editor" id="">
+                <div class="upper-btns">
+                    <button name="btn-up-and-down"><img src="design\ICONS\up-and-down-opposite-double-arrows-side-by-side.png" alt="" srcset="" style="width: 50px; height: 50px;"></button>
+                    <button name="btn-add"><img src="design\ICONS\add.png" alt="" srcset="" style="width: 50px; height: 50px;"></button>
+                    <button name="btn-trash"><img src="design\ICONS\trash.png" alt="" srcset="" style="width: 50px; height: 50px;"></button> 
+                </div>
+                <div class="main-btns"></div>
+                <button name="btn-increase-font"><img src="design\ICONS\increase font - icon.png" alt="" srcset="" style="width: 50px; height: 50px;"></button>
+                <button name="btn-decrease-font"><img src="design\ICONS\decrease font - icon.png" alt="" srcset="" style="width: 50px; height: 50px;"></button>
+                <button name="btn-align-to-left"><img src="design\ICONS\align-to-left.png" alt="" srcset="" style="width: 50px; height: 50px;"></button> 
+                <button name="btn-center-text"><img src="design\ICONS\center-text-alignment.png" alt="" srcset="" style="width: 50px; height: 50px;"></button>
+                <button name="btn-align-to-right"><img src="design\ICONS\align-to-right.png" alt="" srcset="" style="width: 50px; height: 50px;"></button>
+                <br>
+                <select id="impact" name="impact">
+                    <option value="">IMPACT</option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+                <button><img src="design\ICONS\search-icon.png" alt="" srcset="" style="width: 50px; height: 50px;"></button>
+                <button><img src="design\ICONS\paint-board-and-brush.png" alt="" srcset="" style="width: 50px; height: 50px;"></button>
+            </div>
+        </div>
+    </div>
+<script src="js/main.js"></script>
+</body>
+
+</html>
