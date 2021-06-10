@@ -1,42 +1,80 @@
 *{box-sizing: border-box;}
 
-
-body{
+body {
     background-color: #22252c;
 }
-.header{
-    background-image: linear-gradient(to right, #139eac , #2cb77b);
+
+.header {
+    background-image: linear-gradient(to right, #139eac, #2cb77b);
     border-radius: 50px;
     text-decoration: none;
-    height: 80px;
-    text-align: center;
-}
-.logo{
+    /* height: 80px; */
+    /* text-align: center; */
     color: white;
-    text-transform: uppercase;
+}
+
+.search-bar-input input {
+    border-radius: 50px;
+
+}
+
+.search-word-display {
+    border-radius: 50px;
+    border: 1px solid;
+    background-color: rgb(216, 209, 209);
     text-align: center;
-    display: inline-block
+    margin-left: 10px;
+    height: 30px;
 }
-.nav-ops{
-    text-decoration: none;
-    list-style-type: none;
+
+.more-btn-area {
+    border-radius: 50px;
+    border: 1px solid;
+    text-align: center;
+    background-image: linear-gradient(to right, #139eac, #2cb77b);
+    margin-left: 10px;
 }
-    
+
 .flex {
     display: flex;
 }
-.nav-ops li{
-    margin-inline-end: 50px;
-}
-canvas{
-        border: 1px solid black;
-        margin: 10px;
-        border-radius: 10px;
-}
-.editor{
-    text-align: center;
+
+canvas {
+    border: 1px solid black;
     margin: 10px;
+    border-radius: 10px;
 }
-button{
-    margin: 10px;
+
+.text1 {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    color: white;
 }
+/* .edit-area{
+    display: none;
+} */
+
+/* .grid-edit-tool-menu {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    grid-gap: 1em;
+    border: 1px solid;
+}
+
+.input-text-area {
+    grid-column: 2 / -2;
+    grid-row: 1/2;
+    border: 1px solid;
+}
+.upper-btns{
+    grid-column: 3 / -3;
+    grid-row: 2/3;
+    border: 1px solid;
+}
+.main-btns{
+    grid-column: 2 / -2;
+    grid-row: 3/5;
+    border: 1px solid;
+} */
